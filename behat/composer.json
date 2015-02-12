@@ -1,0 +1,10 @@
+{
+  "name": "Behat tests for Openglaze",
+  "description": "Functional testing for Openglaze installation profile.",
+  "require": {
+    "drupal/drupal-extension": "~3.0"
+  },
+  "config": {
+    "bin-dir": "bin/"
+  }
+}

@@ -1,0 +1,28 @@
+<?php
+
+/**
+ * @file
+ * Populate Openglaze content.
+ */
+
+/**
+ * Implements hook_migrate_api().
+ */
+function openglaze_migrate_migrate_api() {
+  $migrations = array(
+    // Nodes.
+    'OpenglazeCompaniesMigrate',
+    'OpenglazeEventsMigrate',
+    'OglazeMaterialsMigrate',
+    
+    // Users.
+    'OpenglazeUsersMigrate',
+  );
+
+  $api['api'] = 2;
+  foreach ($migrations as $migration) {
+    $api['migrations'][$migration] = array('class_name' => $migration);
+  }
+
+  return $api;
+}

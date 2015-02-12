@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the oglaze_material feature.
+ */
+
+include_once 'oglaze_material.features.inc';

@@ -1,0 +1,9 @@
+name = Openglaze RESTFul
+core = 7.x
+package = Openglaze
+dependencies[] = restful
+dependencies[] = entity_validator
+
+dependencies[] = openglaze_company
+
+files[] = plugins/restful/node/OpenglazeEntityBaseNode.php

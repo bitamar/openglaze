@@ -1,0 +1,9 @@
+<?php
+/**
+ * @file
+ * Code for the Openglaze Company feature.
+ */
+
+include_once 'openglaze_company.features.inc';
+
+

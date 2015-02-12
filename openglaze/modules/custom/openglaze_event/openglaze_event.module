@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Openglaze Event feature.
+ */
+
+include_once 'openglaze_event.features.inc';

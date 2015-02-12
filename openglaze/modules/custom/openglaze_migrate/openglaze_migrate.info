@@ -1,0 +1,15 @@
+name = "Openglaze migration"
+description = "Populate content."
+package = "Openglaze"
+core = 7.x
+dependencies[] = migrate
+dependencies[] = migrate_extras
+
+; Handlers
+files[] = handlers/OpenglazeMigrateBase.php
+
+files[] = handlers/node/OpenglazeCompaniesMigrate.php
+files[] = handlers/node/OpenglazeEventsMigrate.php
+files[] = handlers/node/OglazeMaterialsMigrate.php
+files[] = handlers/user/OpenglazeUsersMigrate.php
+

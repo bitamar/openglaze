@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Openglaze glaze feature.
+ */
+
+include_once 'oglaze_glaze.features.inc';
