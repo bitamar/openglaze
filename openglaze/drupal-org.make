@@ -8,6 +8,9 @@ projects[admin_menu][version] = "3.0-rc5"
 projects[admin_views][subdir] = "contrib"
 projects[admin_views][version] = "1.3"
 
+projects[auto_nodetitle][subdir] = "contrib"
+projects[auto_nodetitle][version] = "1.0"
+
 projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.6"
 
@@ -46,6 +49,9 @@ projects[flag][version] = "3.5"
 
 projects[geolocation][subdir] = "contrib"
 projects[geolocation][version] = "1.6"
+
+projects[inline_entity_form][subdir] = "contrib"
+projects[inline_entity_form][version] = "1.5"
 
 projects[jquery_update][subdir] = "contrib"
 projects[jquery_update][version] = "2.4"

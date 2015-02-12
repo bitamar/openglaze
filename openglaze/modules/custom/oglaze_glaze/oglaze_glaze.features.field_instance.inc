@@ -54,10 +54,9 @@ function oglaze_glaze_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-glaze-field_materials'
-  $field_instances['node-glaze-field_materials'] = array(
+  // Exported field_instance: 'node-glaze-field_ingredients'
+  $field_instances['node-glaze-field_ingredients'] = array(
     'bundle' => 'glaze',
-    'default_value' => NULL,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -78,29 +77,122 @@ function oglaze_glaze_field_default_field_instances() {
       ),
     ),
     'entity_type' => 'node',
-    'field_name' => 'field_materials',
-    'label' => 'Materials',
+    'field_name' => 'field_ingredients',
+    'label' => 'Ingredients',
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'inline_entity_form',
+      'settings' => array(
+        'fields' => array(),
+        'type_settings' => array(
+          'allow_existing' => 0,
+          'delete_references' => 0,
+          'label_plural' => 'nodes',
+          'label_singular' => 'node',
+          'match_operator' => 'CONTAINS',
+          'override_labels' => 0,
+        ),
+      ),
+      'type' => 'inline_entity_form',
+      'weight' => -3,
+    ),
+  );
+
+  // Exported field_instance: 'node-glaze_ingredient_-field_amount'
+  $field_instances['node-glaze_ingredient_-field_amount'] = array(
+    'bundle' => 'glaze_ingredient_',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'number',
+        'settings' => array(
+          'decimal_separator' => '.',
+          'prefix_suffix' => TRUE,
+          'scale' => 2,
+          'thousand_separator' => ' ',
+        ),
+        'type' => 'number_decimal',
+        'weight' => 1,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_amount',
+    'label' => 'Amount',
+    'required' => 0,
+    'settings' => array(
+      'max' => 100,
+      'min' => 0,
+      'prefix' => '',
+      'suffix' => '%',
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 0,
+      'module' => 'number',
+      'settings' => array(),
+      'type' => 'number',
+      'weight' => -3,
+    ),
+  );
+
+  // Exported field_instance: 'node-glaze_ingredient_-field_material'
+  $field_instances['node-glaze_ingredient_-field_material'] = array(
+    'bundle' => 'glaze_ingredient_',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'entityreference',
+        'settings' => array(
+          'link' => FALSE,
+        ),
+        'type' => 'entityreference_label',
+        'weight' => 0,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_material',
+    'label' => 'Material',
     'required' => 1,
     'settings' => array(
       'user_register_form' => FALSE,
     ),
     'widget' => array(
       'active' => 1,
-      'module' => 'entityreference',
-      'settings' => array(
-        'match_operator' => 'CONTAINS',
-        'path' => '',
-        'size' => 60,
-      ),
-      'type' => 'entityreference_autocomplete',
-      'weight' => -3,
+      'module' => 'options',
+      'settings' => array(),
+      'type' => 'options_select',
+      'weight' => -4,
     ),
   );
 
   // Translatables
   // Included for use with string extractors like potx.
+  t('Amount');
   t('Body');
-  t('Materials');
+  t('Ingredients');
+  t('Material');
 
   return $field_instances;
 }

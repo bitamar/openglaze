@@ -59,6 +59,24 @@ function openglaze_setup_variables() {
     // Private files directory.
     'file_private_path' => 'sites/default/files/private',
     'file_default_scheme' => 'private',
+    // Appearance settings.
+    'theme_bartik_settings' => array(
+      'toggle_logo' => FALSE,
+      'toggle_name' => TRUE,
+      'toggle_slogan' => TRUE,
+      'toggle_node_user_picture' => TRUE,
+      'toggle_comment_user_picture' => TRUE,
+      'toggle_comment_user_verification' => TRUE,
+      'toggle_favicon' => TRUE,
+      'toggle_main_menu' => TRUE,
+      'toggle_secondary_menu' => TRUE,
+      'default_logo' => FALSE,
+      'logo_path' => NULL,
+      'logo_upload' => NULL,
+      'default_favicon' => FALSE,
+      'favicon_path' => NULL,
+      'favicon_upload' => NULL,
+    ),
   );
 
   foreach ($variables as $key => $value) {

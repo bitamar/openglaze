@@ -19,6 +19,7 @@ dependencies[] = file
 ; Contrib modules
 dependencies[] = admin_menu_toolbar
 dependencies[] = admin_views
+dependencies[] = auto_nodetitle
 dependencies[] = ctools
 dependencies[] = date
 dependencies[] = entity
@@ -29,6 +30,7 @@ dependencies[] = features
 dependencies[] = flag
 dependencies[] = geolocation
 dependencies[] = geolocation_html5
+dependencies[] = inline_entity_form
 dependencies[] = libraries
 dependencies[] = message
 dependencies[] = migrate
