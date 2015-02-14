@@ -150,10 +150,23 @@ angular
           }
         }
       })
+      .state('dashboard.glazes', {
+        url: '/glazes',
+        templateUrl: 'views/dashboard/glazes/glazes.html',
+        controller: 'GlazesCtrl',
+        onEnter: page403,
+        resolve: {
+          glazes: function(Glazes) {
+            return Glazes.get();
+          }
+        }
+      })
+
       .state('403', {
         url: '/403',
         templateUrl: 'views/403.html'
       });
+
 
     // For any unmatched url, redirect to '/'.
     $urlRouterProvider.otherwise('/');
