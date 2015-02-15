@@ -26,7 +26,7 @@ function oglaze_glaze_node_info() {
       'title_label' => t('Name'),
       'help' => '',
     ),
-    'glaze_ingredient_' => array(
+    'glaze_ingredient' => array(
       'name' => t('Glaze ingredient'),
       'base' => 'node_content',
       'description' => '',

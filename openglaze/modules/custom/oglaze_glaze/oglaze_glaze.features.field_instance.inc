@@ -143,9 +143,9 @@ function oglaze_glaze_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-glaze_ingredient_-field_amount'
-  $field_instances['node-glaze_ingredient_-field_amount'] = array(
-    'bundle' => 'glaze_ingredient_',
+  // Exported field_instance: 'node-glaze_ingredient-field_amount'
+  $field_instances['node-glaze_ingredient-field_amount'] = array(
+    'bundle' => 'glaze_ingredient',
     'default_value' => NULL,
     'deleted' => 0,
     'description' => '',
@@ -195,9 +195,9 @@ function oglaze_glaze_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-glaze_ingredient_-field_material'
-  $field_instances['node-glaze_ingredient_-field_material'] = array(
-    'bundle' => 'glaze_ingredient_',
+  // Exported field_instance: 'node-glaze_ingredient-field_material'
+  $field_instances['node-glaze_ingredient-field_material'] = array(
+    'bundle' => 'glaze_ingredient',
     'default_value' => NULL,
     'deleted' => 0,
     'description' => '',

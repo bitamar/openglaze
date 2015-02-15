@@ -62,7 +62,7 @@ function oglaze_glaze_field_default_field_bases() {
           'type' => 'none',
         ),
         'target_bundles' => array(
-          'glaze_ingredient_' => 'glaze_ingredient_',
+          'glaze_ingredient' => 'glaze_ingredient',
         ),
       ),
       'target_type' => 'node',
