@@ -161,6 +161,12 @@ angular
           }
         }
       })
+      .state('dashboard.glazes.glaze', {
+        url: '/{id:int}',
+        templateUrl: 'views/dashboard/glazes/glazes.glaze.html',
+        controller: 'GlazesCtrl',
+        onEnter: page403
+      })
 
       .state('403', {
         url: '/403',
