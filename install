@@ -145,7 +145,7 @@ enable_development_modules
 
 # Import content.
 convert_csv_to_sql
-import_demo_content
+#import_demo_content
 
 # Run post script (if any).
 run_post_script "install"

@@ -36,7 +36,7 @@ projects[entityreference][version] = "1.1"
 projects[entityreference][patch][] = "https://www.drupal.org/files/issues/migrate_multiple_entity_reference-2394725-4.patch"
 
 projects[entity_validator][subdir] = "contrib"
-projects[entity_validator][version] = "1.x"
+projects[entity_validator][version] = "1.1"
 
 projects[facetapi][subdir] = "contrib"
 projects[facetapi][version] = "1.5"
