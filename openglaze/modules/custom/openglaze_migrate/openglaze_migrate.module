@@ -13,8 +13,10 @@ function openglaze_migrate_migrate_api() {
     // Nodes.
     'OpenglazeCompaniesMigrate',
     'OpenglazeEventsMigrate',
+    'OglazeGlazeIngredinetsMigrate',
+    'OglazeGlazesMigrate',
     'OglazeMaterialsMigrate',
-    
+
     // Users.
     'OpenglazeUsersMigrate',
   );

@@ -14,6 +14,7 @@ class OglazeMaterialsMigrate extends \OpenglazeMigrateBase {
     '_language',
     '_aka',
     '_wiki_url',
+    '_formula',
     '_image',
   );
 
@@ -25,6 +26,7 @@ class OglazeMaterialsMigrate extends \OpenglazeMigrateBase {
     $this->addFieldMapping('field_images:source_dir')->defaultValue($this->getMigrateDirectory() . '/images/material/');
 
     $this->addFieldMapping('field_aka', '_aka');
+    $this->addFieldMapping('field_formula', '_formula');
     $this->addFieldMapping('field_wikipedia_article', '_wiki_url');
   }
 }

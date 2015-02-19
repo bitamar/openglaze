@@ -10,6 +10,8 @@ files[] = handlers/OpenglazeMigrateBase.php
 
 files[] = handlers/node/OpenglazeCompaniesMigrate.php
 files[] = handlers/node/OpenglazeEventsMigrate.php
+files[] = handlers/node/OglazeGlazeIngredinetsMigrate.php
+files[] = handlers/node/OglazeGlazesMigrate.php
 files[] = handlers/node/OglazeMaterialsMigrate.php
 files[] = handlers/user/OpenglazeUsersMigrate.php
 

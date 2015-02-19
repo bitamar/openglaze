@@ -1,11 +1,11 @@
 SELECT
-	n.nid AS id,
+	n.nid AS unique_id,
 	title,
-	n.language,
+	'en' AS language,
 	GROUP_CONCAT(aka.field_aka_value) AS aka,
 	wa.field_wikipedia_article_url AS wiki_url,
   ff.field_formula_value as formula,
-	fm.filename
+	fm.filename AS image
 FROM node n
 	LEFT JOIN field_data_field_wikipedia_article wa ON n.nid = wa.entity_id AND wa.entity_type = 'node'
 	LEFT JOIN field_data_field_aka aka ON n.nid = aka.entity_id AND aka.entity_type = 'node'

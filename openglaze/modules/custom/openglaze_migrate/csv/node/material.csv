@@ -1,15 +1,18 @@
-Unique ID,title,language,aka,wiki_url,image
-17,Orthoclase,en,"Potassium Feldspar|K-feldspar",http://en.wikipedia.org/wiki/Orthoclase,OrthoclaseBresil.jpg
-18,"Soda Feldspar",en,,,
-19,"Lithium carbonate",en,,http://en.wikipedia.org/wiki/Lithium_carbonate,Lithium_carbonate.jpg
-20,Zinc,en,,http://en.wikipedia.org/wiki/Zinc,Zinc_fragment_sublimed_and_1cm3_cube.jpg
-21,"Barium carbonate",en,,http://en.wikipedia.org/wiki/Barium_carbonate,Witherite_Barium_carbonate_South_Moor_Colliery_Durham_England.jpg
-22,"Magnesium carbonate",en,,http://en.wikipedia.org/wiki/Magnesium_carbonate,"Magnesium carbonate.png"
-23,Talc,en,,http://en.wikipedia.org/wiki/Talc,Talc.jpg
-24,Dolomite,en,,http://en.wikipedia.org/wiki/Dolomite,Dolomite-Magnésite-_Navarre.jpg
-25,Strontium,en,,http://en.wikipedia.org/wiki/Strontium,Strontium_destilled_crystals.jpg
-26,Wollastonite,en,,http://en.wikipedia.org/wiki/Wollastonite,WEZUWIAN_WOLLASTONIT_ANDRADYT_2.jpg
-27,"Bone Ash",en,"Calcium Phosphate",http://en.wikipedia.org/wiki/Calcium_phosphate,
-28,Quartz,en,,http://en.wikipedia.org/wiki/Quartz,"Quartz,_Tibet.jpg"
-29,Kaolinite,en,Kaolin,http://en.wikipedia.org/wiki/Kaolinite,KaoliniteUSGOV.jpg
-30,"Ball clay",en,,http://en.wikipedia.org/wiki/Ball_clay,
+Unique ID,title,language,aka,wiki_url,formula,image
+34,"Ball clay",en,,http://en.wikipedia.org/wiki/Ball_clay,,
+25,"Barium carbonate",en,,http://en.wikipedia.org/wiki/Barium_carbonate,,Witherite_Barium_carbonate_South_Moor_Colliery_Durham_England.jpg
+31,"Bone Ash",en,"Calcium Phosphate",http://en.wikipedia.org/wiki/Calcium_phosphate,,
+37,"Borax Fritt",en,,,,
+28,Dolomite,en,,http://en.wikipedia.org/wiki/Dolomite,"CaMg (CO_3)_2",Dolomite-Magnésite-_Navarre.jpg
+33,Kaolinite,en,"Kaolin,China Clay",http://en.wikipedia.org/wiki/Kaolinite,"Al_2O_3 2SiO_2 2H_2O",KaoliniteUSGOV.jpg
+23,"Lithium carbonate",en,,http://en.wikipedia.org/wiki/Lithium_carbonate,Li_2CO_3,Lithium_carbonate.jpg
+26,"Magnesium Carbonate",en,,http://en.wikipedia.org/wiki/Magnesium_carbonate,MgCO_3,"Magnesium carbonate.png"
+21,"Potash Feldsfar",en,"Orthoclase,Potassium Feldspar,K-feldspar",http://en.wikipedia.org/wiki/Orthoclase,"K_2O Al_2O_3 6SiO_2",OrthoclaseBresil.jpg
+32,Quartz,en,,http://en.wikipedia.org/wiki/Quartz,,"Quartz,_Tibet.jpg"
+22,"Soda Feldspar",en,,,"Na_2O Al_2O_3 6SiO_2",
+29,Strontium,en,,http://en.wikipedia.org/wiki/Strontium,,Strontium_destilled_crystals.jpg
+27,Talc,en,,http://en.wikipedia.org/wiki/Talc,,Talc.jpg
+36,Tin,en,,,Sn,
+35,Whiting,en,"Calcium Carbonate",,CaCO_3,
+30,Wollastonite,en,"Calcium Silicate",http://en.wikipedia.org/wiki/Wollastonite,"CaO SiO_2",WEZUWIAN_WOLLASTONIT_ANDRADYT_2.jpg
+24,Zinc,en,,http://en.wikipedia.org/wiki/Zinc,Zn,Zinc_fragment_sublimed_and_1cm3_cube.jpg
