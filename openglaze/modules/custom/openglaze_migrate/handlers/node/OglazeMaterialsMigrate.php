@@ -21,9 +21,12 @@ class OglazeMaterialsMigrate extends \OpenglazeMigrateBase {
   public function __construct() {
     parent::__construct();
 
+    $this->addFieldMapping('language', '_language');
     $this->addFieldMapping('field_images', '_image');
-    $this->addFieldMapping('field_images:file_replace')->defaultValue(FILE_EXISTS_REPLACE);
-    $this->addFieldMapping('field_images:source_dir')->defaultValue($this->getMigrateDirectory() . '/images/material/');
+    $this->addFieldMapping('field_images:file_replace')
+      ->defaultValue(FILE_EXISTS_REPLACE);
+    $this->addFieldMapping('field_images:source_dir')
+      ->defaultValue($this->getMigrateDirectory() . '/images/material/');
 
     $this->addFieldMapping('field_aka', '_aka');
     $this->addFieldMapping('field_formula', '_formula');
